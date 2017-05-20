@@ -1,0 +1,29 @@
+{
+  "name": "@justinc/github-cf",
+  "version": "0.0.0",
+  "description": "Given a Github project, fetches contributors and their followers. See link to blog post in README.md.",
+  "main": "src/index.js",
+  "bin": {
+    "github-cf": "cli.js"
+  },
+  "scripts": {
+    "lint": "standard cli.js src/*"
+  },
+  "files": [
+    "src",
+    "cli.js",
+    "README.md"
+  ],
+  "author": "Justin Calleja <calleja.justin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "daggy": "^1.0.0",
+    "js-csp": "^0.9.3",
+    "meow": "^3.7.0",
+    "parse-link-header": "^1.0.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
+}
