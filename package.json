@@ -7,7 +7,7 @@
     "github-cf": "cli.js"
   },
   "scripts": {
-    "lint": "standard cli.js src/*"
+    "lint": "standard"
   },
   "files": [
     "src",
